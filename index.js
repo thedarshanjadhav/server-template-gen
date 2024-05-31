@@ -18,6 +18,8 @@ app.use(express.json());
 
 // mongoose.connect("mongodb://127.0.0.1:27017/Grassroot");
 
+
+// accessing the mongo atlas from env file
 const dbUrl = process.env.ATLASDB_URL;
 
 
